@@ -1,0 +1,32 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/catkin_ws/build/dual_arm_moveit_config
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/launch/dual_arm_rviz.launch.py
+-- Symlinking: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/launch/servo.launch.py
+-- Symlinking: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config/dual_arm.srdf
+-- Symlinking: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config/kinematics.yaml
+-- Symlinking: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config/servo_left.yaml
+-- Symlinking: /root/catkin_ws/install/dual_arm_moveit_config/share/ament_index/resource_index/package_run_dependencies/dual_arm_moveit_config
+-- Symlinking: /root/catkin_ws/install/dual_arm_moveit_config/share/ament_index/resource_index/parent_prefix_path/dual_arm_moveit_config
+-- Symlinking: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/environment/ament_prefix_path.sh
+-- Symlinking: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/environment/ament_prefix_path.dsv
+-- Symlinking: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/environment/path.sh
+-- Symlinking: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/environment/path.dsv
+-- Symlinking: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/local_setup.bash
+-- Symlinking: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/local_setup.sh
+-- Symlinking: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/local_setup.zsh
+-- Symlinking: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/local_setup.dsv
+-- Symlinking: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/package.dsv
+-- Symlinking: /root/catkin_ws/install/dual_arm_moveit_config/share/ament_index/resource_index/packages/dual_arm_moveit_config
+-- Symlinking: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/cmake/dual_arm_moveit_configConfig.cmake
+-- Symlinking: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/cmake/dual_arm_moveit_configConfig-version.cmake
+-- Symlinking: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/package.xml

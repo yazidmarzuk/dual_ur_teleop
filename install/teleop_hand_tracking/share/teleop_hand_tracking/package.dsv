@@ -1,0 +1,12 @@
+source;share/teleop_hand_tracking/hook/path.ps1
+source;share/teleop_hand_tracking/hook/path.dsv
+source;share/teleop_hand_tracking/hook/path.sh
+source;share/teleop_hand_tracking/hook/pythonpath.ps1
+source;share/teleop_hand_tracking/hook/pythonpath.dsv
+source;share/teleop_hand_tracking/hook/pythonpath.sh
+source;share/teleop_hand_tracking/hook/pythonscriptspath.ps1
+source;share/teleop_hand_tracking/hook/pythonscriptspath.dsv
+source;share/teleop_hand_tracking/hook/pythonscriptspath.sh
+source;share/teleop_hand_tracking/hook/ament_prefix_path.ps1
+source;share/teleop_hand_tracking/hook/ament_prefix_path.dsv
+source;share/teleop_hand_tracking/hook/ament_prefix_path.sh

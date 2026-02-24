@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash:*)",
+      "Bash(python3:*)",
+      "Bash(pkill:*)",
+      "Bash(sleep 5:*)"
+    ]
+  }
+}

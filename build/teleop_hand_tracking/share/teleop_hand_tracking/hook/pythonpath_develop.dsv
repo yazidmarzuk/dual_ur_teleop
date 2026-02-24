@@ -1,0 +1,1 @@
+prepend-non-duplicate;PYTHONPATH;/root/catkin_ws/build/teleop_hand_tracking

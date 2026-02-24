@@ -1,0 +1,23 @@
+[0.011s] Invoking command in '/root/catkin_ws/build/dual_arm_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/catkin_ws/src/dual_arm_moveit_config -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/dual_arm_moveit_config
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.103s] -- The CXX compiler identification is GNU 11.4.0
+[0.108s] -- Detecting C compiler ABI info
+[0.157s] -- Detecting C compiler ABI info - done
+[0.163s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.164s] -- Detecting C compile features
+[0.164s] -- Detecting C compile features - done
+[0.166s] -- Detecting CXX compiler ABI info
+[0.224s] -- Detecting CXX compiler ABI info - done
+[0.230s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.230s] -- Detecting CXX compile features
+[0.231s] -- Detecting CXX compile features - done
+[0.234s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.352s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.433s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.500s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.500s] -- Added test 'lint_cmake' to check CMake code style
+[0.500s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.501s] -- Added test 'xmllint' to check XML markup files
+[0.502s] -- Configuring done
+[0.504s] -- Generating done
+[0.506s] -- Build files have been written to: /root/catkin_ws/build/dual_arm_moveit_config

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:macro name="parallel_gripper" params="prefix parent">
+
+    <joint name="${prefix}gripper_base_joint" type="fixed">
+      <parent link="${parent}"/>
+      <child  link="${prefix}gripper_base"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+    <link name="${prefix}gripper_base">
+      <visual><geometry><box size="0.06 0.06 0.04"/></geometry>
+        <origin xyz="0 0 0.02"/></visual>
+      <collision><geometry><box size="0.06 0.06 0.04"/></geometry>
+        <origin xyz="0 0 0.02"/></collision>
+      <inertial><mass value="0.2"/><inertia ixx="1e-4" iyy="1e-4" izz="1e-4" ixy="0" ixz="0" iyz="0"/></inertial>
+    </link>
+
+    <!-- Left finger -->
+    <joint name="${prefix}left_finger_joint" type="prismatic">
+      <parent link="${prefix}gripper_base"/>
+      <child  link="${prefix}left_finger"/>
+      <origin xyz="-0.02 0 0.04"/>
+      <axis xyz="1 0 0"/>
+      <limit lower="-0.03" upper="0.0" effort="20" velocity="0.1"/>
+    </joint>
+    <link name="${prefix}left_finger">
+      <visual><geometry><box size="0.01 0.02 0.06"/></geometry></visual>
+      <collision><geometry><box size="0.01 0.02 0.06"/></geometry></collision>
+      <inertial><mass value="0.05"/><inertia ixx="1e-5" iyy="1e-5" izz="1e-5" ixy="0" ixz="0" iyz="0"/></inertial>
+    </link>
+
+    <!-- Right finger (mimic) -->
+    <joint name="${prefix}right_finger_joint" type="prismatic">
+      <parent link="${prefix}gripper_base"/>
+      <child  link="${prefix}right_finger"/>
+      <origin xyz="0.02 0 0.04"/>
+      <axis xyz="-1 0 0"/>
+      <limit lower="-0.03" upper="0.0" effort="20" velocity="0.1"/>
+      <mimic joint="${prefix}left_finger_joint" multiplier="1.0" offset="0.0"/>
+    </joint>
+    <link name="${prefix}right_finger">
+      <visual><geometry><box size="0.01 0.02 0.06"/></geometry></visual>
+      <collision><geometry><box size="0.01 0.02 0.06"/></geometry></collision>
+      <inertial><mass value="0.05"/><inertia ixx="1e-5" iyy="1e-5" izz="1e-5" ixy="0" ixz="0" iyz="0"/></inertial>
+    </link>
+
+  </xacro:macro>
+</robot>

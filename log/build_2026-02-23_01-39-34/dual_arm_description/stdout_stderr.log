@@ -1,0 +1,16 @@
+-- Install configuration: ""
+-- Up-to-date: /root/catkin_ws/install/dual_arm_description/share/ament_index/resource_index/package_run_dependencies/dual_arm_description
+-- Up-to-date: /root/catkin_ws/install/dual_arm_description/share/ament_index/resource_index/parent_prefix_path/dual_arm_description
+-- Up-to-date: /root/catkin_ws/install/dual_arm_description/share/dual_arm_description/environment/ament_prefix_path.sh
+-- Up-to-date: /root/catkin_ws/install/dual_arm_description/share/dual_arm_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/catkin_ws/install/dual_arm_description/share/dual_arm_description/environment/path.sh
+-- Up-to-date: /root/catkin_ws/install/dual_arm_description/share/dual_arm_description/environment/path.dsv
+-- Up-to-date: /root/catkin_ws/install/dual_arm_description/share/dual_arm_description/local_setup.bash
+-- Up-to-date: /root/catkin_ws/install/dual_arm_description/share/dual_arm_description/local_setup.sh
+-- Up-to-date: /root/catkin_ws/install/dual_arm_description/share/dual_arm_description/local_setup.zsh
+-- Up-to-date: /root/catkin_ws/install/dual_arm_description/share/dual_arm_description/local_setup.dsv
+-- Installing: /root/catkin_ws/install/dual_arm_description/share/dual_arm_description/package.dsv
+-- Up-to-date: /root/catkin_ws/install/dual_arm_description/share/ament_index/resource_index/packages/dual_arm_description
+-- Up-to-date: /root/catkin_ws/install/dual_arm_description/share/dual_arm_description/cmake/dual_arm_descriptionConfig.cmake
+-- Up-to-date: /root/catkin_ws/install/dual_arm_description/share/dual_arm_description/cmake/dual_arm_descriptionConfig-version.cmake
+-- Up-to-date: /root/catkin_ws/install/dual_arm_description/share/dual_arm_description/package.xml

@@ -1,0 +1,17 @@
+/root/catkin_ws/install/dual_arm_description/share/dual_arm_description/urdf/dual_arm.urdf.xacro
+/root/catkin_ws/install/dual_arm_description/share/dual_arm_description/urdf/gripper_macro.xacro
+/root/catkin_ws/install/dual_arm_description/share/ament_index/resource_index/package_run_dependencies/dual_arm_description
+/root/catkin_ws/install/dual_arm_description/share/ament_index/resource_index/parent_prefix_path/dual_arm_description
+/root/catkin_ws/install/dual_arm_description/share/dual_arm_description/environment/ament_prefix_path.sh
+/root/catkin_ws/install/dual_arm_description/share/dual_arm_description/environment/ament_prefix_path.dsv
+/root/catkin_ws/install/dual_arm_description/share/dual_arm_description/environment/path.sh
+/root/catkin_ws/install/dual_arm_description/share/dual_arm_description/environment/path.dsv
+/root/catkin_ws/install/dual_arm_description/share/dual_arm_description/local_setup.bash
+/root/catkin_ws/install/dual_arm_description/share/dual_arm_description/local_setup.sh
+/root/catkin_ws/install/dual_arm_description/share/dual_arm_description/local_setup.zsh
+/root/catkin_ws/install/dual_arm_description/share/dual_arm_description/local_setup.dsv
+/root/catkin_ws/install/dual_arm_description/share/dual_arm_description/package.dsv
+/root/catkin_ws/install/dual_arm_description/share/ament_index/resource_index/packages/dual_arm_description
+/root/catkin_ws/install/dual_arm_description/share/dual_arm_description/cmake/dual_arm_descriptionConfig.cmake
+/root/catkin_ws/install/dual_arm_description/share/dual_arm_description/cmake/dual_arm_descriptionConfig-version.cmake
+/root/catkin_ws/install/dual_arm_description/share/dual_arm_description/package.xml

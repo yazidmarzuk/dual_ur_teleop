@@ -1,0 +1,27 @@
+[0.011s] Invoking command in '/root/catkin_ws/build/dual_arm_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/teleop_hand_tracking:/opt/ros/humble /usr/bin/cmake --build /root/catkin_ws/build/dual_arm_moveit_config -- -j12 -l12
+[0.038s] Invoked command in '/root/catkin_ws/build/dual_arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/teleop_hand_tracking:/opt/ros/humble /usr/bin/cmake --build /root/catkin_ws/build/dual_arm_moveit_config -- -j12 -l12
+[0.045s] Invoking command in '/root/catkin_ws/build/dual_arm_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/teleop_hand_tracking:/opt/ros/humble /usr/bin/cmake --install /root/catkin_ws/build/dual_arm_moveit_config
+[0.050s] -- Install configuration: ""
+[0.050s] -- Execute custom install script
+[0.051s] -- Up-to-date symlink: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/launch/dual_arm_rviz.launch.py
+[0.051s] -- Up-to-date symlink: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/launch/servo.launch.py
+[0.051s] -- Up-to-date symlink: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config/dual_arm.srdf
+[0.051s] -- Up-to-date symlink: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config/kinematics.yaml
+[0.051s] -- Up-to-date symlink: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config/servo_left.yaml
+[0.051s] -- Up-to-date symlink: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config/servo_right.yaml
+[0.051s] -- Up-to-date symlink: /root/catkin_ws/install/dual_arm_moveit_config/share/ament_index/resource_index/package_run_dependencies/dual_arm_moveit_config
+[0.051s] -- Up-to-date symlink: /root/catkin_ws/install/dual_arm_moveit_config/share/ament_index/resource_index/parent_prefix_path/dual_arm_moveit_config
+[0.051s] -- Up-to-date symlink: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/environment/ament_prefix_path.sh
+[0.052s] -- Up-to-date symlink: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/environment/ament_prefix_path.dsv
+[0.052s] -- Up-to-date symlink: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/environment/path.sh
+[0.052s] -- Up-to-date symlink: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/environment/path.dsv
+[0.052s] -- Up-to-date symlink: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/local_setup.bash
+[0.052s] -- Up-to-date symlink: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/local_setup.sh
+[0.052s] -- Up-to-date symlink: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/local_setup.zsh
+[0.052s] -- Up-to-date symlink: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/local_setup.dsv
+[0.053s] -- Symlinking: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/package.dsv
+[0.059s] -- Up-to-date symlink: /root/catkin_ws/install/dual_arm_moveit_config/share/ament_index/resource_index/packages/dual_arm_moveit_config
+[0.059s] -- Up-to-date symlink: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/cmake/dual_arm_moveit_configConfig.cmake
+[0.059s] -- Up-to-date symlink: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/cmake/dual_arm_moveit_configConfig-version.cmake
+[0.059s] -- Up-to-date symlink: /root/catkin_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/package.xml
+[0.061s] Invoked command in '/root/catkin_ws/build/dual_arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/teleop_hand_tracking:/opt/ros/humble /usr/bin/cmake --install /root/catkin_ws/build/dual_arm_moveit_config

@@ -1,0 +1,2 @@
+Invoking command in '/root/catkin_ws/build/franka_description': /usr/bin/cmake /root/catkin_ws/src/Multi-Arm-6-DOF-Robot-Tele-operation-with-Real-Time-Hand-Tracking/franka_description -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/franka_description
+Invoked command in '/root/catkin_ws/build/franka_description' returned '1': /usr/bin/cmake /root/catkin_ws/src/Multi-Arm-6-DOF-Robot-Tele-operation-with-Real-Time-Hand-Tracking/franka_description -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/franka_description

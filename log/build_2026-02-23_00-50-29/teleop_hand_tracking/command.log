@@ -1,0 +1,2 @@
+Invoking command in '/root/catkin_ws/build/teleop_hand_tracking': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/catkin_ws/src/teleop_hand_tracking -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/teleop_hand_tracking
+Invoked command in '/root/catkin_ws/build/teleop_hand_tracking' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/catkin_ws/src/teleop_hand_tracking -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/teleop_hand_tracking

@@ -1,0 +1,25 @@
+[0.557s] Invoking command in '/root/catkin_ws/src/teleop_hand_tracking': PYTHONPATH=/root/catkin_ws/build/teleop_hand_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/catkin_ws/install/teleop_hand_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_hand_tracking build --build-base /root/catkin_ws/build/teleop_hand_tracking/build install --record /root/catkin_ws/build/teleop_hand_tracking/install.log --single-version-externally-managed install_data
+[0.764s] running egg_info
+[0.764s] writing ../../build/teleop_hand_tracking/teleop_hand_tracking.egg-info/PKG-INFO
+[0.764s] writing dependency_links to ../../build/teleop_hand_tracking/teleop_hand_tracking.egg-info/dependency_links.txt
+[0.764s] writing entry points to ../../build/teleop_hand_tracking/teleop_hand_tracking.egg-info/entry_points.txt
+[0.765s] writing requirements to ../../build/teleop_hand_tracking/teleop_hand_tracking.egg-info/requires.txt
+[0.765s] writing top-level names to ../../build/teleop_hand_tracking/teleop_hand_tracking.egg-info/top_level.txt
+[0.766s] reading manifest file '../../build/teleop_hand_tracking/teleop_hand_tracking.egg-info/SOURCES.txt'
+[0.767s] writing manifest file '../../build/teleop_hand_tracking/teleop_hand_tracking.egg-info/SOURCES.txt'
+[0.767s] running build
+[0.767s] running build_py
+[0.767s] copying teleop_hand_tracking/hand_tracker_node.py -> /root/catkin_ws/build/teleop_hand_tracking/build/lib/teleop_hand_tracking
+[0.767s] running install
+[0.767s] running install_lib
+[0.768s] copying /root/catkin_ws/build/teleop_hand_tracking/build/lib/teleop_hand_tracking/hand_tracker_node.py -> /root/catkin_ws/install/teleop_hand_tracking/lib/python3.10/site-packages/teleop_hand_tracking
+[0.768s] byte-compiling /root/catkin_ws/install/teleop_hand_tracking/lib/python3.10/site-packages/teleop_hand_tracking/hand_tracker_node.py to hand_tracker_node.cpython-310.pyc
+[0.771s] running install_data
+[0.771s] running install_egg_info
+[0.772s] removing '/root/catkin_ws/install/teleop_hand_tracking/lib/python3.10/site-packages/teleop_hand_tracking-0.1.0-py3.10.egg-info' (and everything under it)
+[0.773s] Copying ../../build/teleop_hand_tracking/teleop_hand_tracking.egg-info to /root/catkin_ws/install/teleop_hand_tracking/lib/python3.10/site-packages/teleop_hand_tracking-0.1.0-py3.10.egg-info
+[0.773s] running install_scripts
+[0.791s] Installing hand_tracker_node script to /lib/teleop_hand_tracking
+[0.792s] Installing joint_state_relay script to /lib/teleop_hand_tracking
+[0.792s] writing list of installed files to '/root/catkin_ws/build/teleop_hand_tracking/install.log'
+[0.811s] Invoked command in '/root/catkin_ws/src/teleop_hand_tracking' returned '0': PYTHONPATH=/root/catkin_ws/build/teleop_hand_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/catkin_ws/install/teleop_hand_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_hand_tracking build --build-base /root/catkin_ws/build/teleop_hand_tracking/build install --record /root/catkin_ws/build/teleop_hand_tracking/install.log --single-version-externally-managed install_data

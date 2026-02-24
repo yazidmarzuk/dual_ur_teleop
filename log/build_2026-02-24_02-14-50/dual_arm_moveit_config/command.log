@@ -1,0 +1,2 @@
+Invoking command in '/root/catkin_ws/build/dual_arm_moveit_config': /usr/bin/cmake /root/catkin_ws/src/dual_arm_moveit_config -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/dual_arm_moveit_config
+Invoked command in '/root/catkin_ws/build/dual_arm_moveit_config' returned '1': /usr/bin/cmake /root/catkin_ws/src/dual_arm_moveit_config -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/dual_arm_moveit_config

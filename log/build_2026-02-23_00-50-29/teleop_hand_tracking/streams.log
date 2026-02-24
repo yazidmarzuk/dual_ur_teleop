@@ -1,0 +1,4 @@
+[0.010s] Invoking command in '/root/catkin_ws/build/teleop_hand_tracking': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/catkin_ws/src/teleop_hand_tracking -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/teleop_hand_tracking
+[0.016s] [0mCMake Error: The source directory "/root/catkin_ws/src/teleop_hand_tracking" does not appear to contain CMakeLists.txt.
+[0.016s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.017s] Invoked command in '/root/catkin_ws/build/teleop_hand_tracking' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/catkin_ws/src/teleop_hand_tracking -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/teleop_hand_tracking

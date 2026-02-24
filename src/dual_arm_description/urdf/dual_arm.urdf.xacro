@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="dual_arm">
+
+  <!-- Common parameters -->
+  <xacro:arg name="prefix_left"  default="left_"/>
+  <xacro:arg name="prefix_right" default="right_"/>
+
+  <!-- World frame -->
+  <link name="world"/>
+
+  <!-- Import UR5e macro from ur_description -->
+  <xacro:include filename="$(find ur_description)/urdf/ur_macro.xacro"/>
+
+  <!-- ===== LEFT ARM ===== -->
+  <!-- Mount left arm 0.4m to the left of world origin -->
+  <joint name="world_to_left_base" type="fixed">
+    <parent link="world"/>
+    <child  link="left_base_link"/>
+    <origin xyz="-0.4 0.0 0.0" rpy="0 0 0"/>
+  </joint>
+
+  <xacro:ur_robot
+    name="$(arg prefix_left)"
+    tf_prefix="$(arg prefix_left)"
+    parent="world"
+    joint_limits_parameters_file="$(find ur_description)/config/ur5e/joint_limits.yaml"
+    kinematics_parameters_file="$(find ur_description)/config/ur5e/default_kinematics.yaml"
+    physical_parameters_file="$(find ur_description)/config/ur5e/physical_parameters.yaml"
+    visual_parameters_file="$(find ur_description)/config/ur5e/visual_parameters.yaml">
+    <origin xyz="-0.4 0.0 0.0" rpy="0 0 0"/>
+  </xacro:ur_robot>
+
+  <!-- Left Gripper (simple parallel jaw) -->
+  <xacro:include filename="$(find dual_arm_description)/urdf/gripper_macro.xacro"/>
+  <xacro:parallel_gripper prefix="left_" parent="left_tool0"/>
+
+  <!-- ===== RIGHT ARM ===== -->
+  <joint name="world_to_right_base" type="fixed">
+    <parent link="world"/>
+    <child  link="right_base_link"/>
+    <origin xyz="0.4 0.0 0.0" rpy="0 0 0"/>
+  </joint>
+
+  <xacro:ur_robot
+    name="$(arg prefix_right)"
+    tf_prefix="$(arg prefix_right)"
+    parent="world"
+    joint_limits_parameters_file="$(find ur_description)/config/ur5e/joint_limits.yaml"
+    kinematics_parameters_file="$(find ur_description)/config/ur5e/default_kinematics.yaml"
+    physical_parameters_file="$(find ur_description)/config/ur5e/physical_parameters.yaml"
+    visual_parameters_file="$(find ur_description)/config/ur5e/visual_parameters.yaml">
+    <origin xyz="0.4 0.0 0.0" rpy="0 0 0"/>
+  </xacro:ur_robot>
+
+  <!-- Right Gripper -->
+  <xacro:parallel_gripper prefix="right_" parent="right_tool0"/>
+
+</robot>

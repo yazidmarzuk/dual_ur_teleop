@@ -1,0 +1,21 @@
+[0.012s] Invoking command in '/root/catkin_ws/build/dual_arm_moveit_config': /usr/bin/cmake /root/catkin_ws/src/dual_arm_moveit_config -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/dual_arm_moveit_config
+[0.020s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.083s] Traceback (most recent call last):
+[0.083s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.083s]     from ament_package.templates import get_environment_hook_template_path
+[0.083s] ModuleNotFoundError: No module named 'ament_package'
+[0.086s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.086s]   execute_process(/usr/bin/python3
+[0.086s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.086s]   /root/catkin_ws/build/dual_arm_moveit_config/ament_cmake_package_templates/templates.cmake)
+[0.086s]   returned error code 1
+[0.086s] Call Stack (most recent call first):
+[0.086s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.086s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.086s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.086s]   CMakeLists.txt:9 (find_package)
+[0.086s] 
+[0.086s] [0m
+[0.086s] -- Configuring incomplete, errors occurred!
+[0.086s] See also "/root/catkin_ws/build/dual_arm_moveit_config/CMakeFiles/CMakeOutput.log".
+[0.171s] Invoked command in '/root/catkin_ws/build/dual_arm_moveit_config' returned '1': /usr/bin/cmake /root/catkin_ws/src/dual_arm_moveit_config -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/dual_arm_moveit_config
