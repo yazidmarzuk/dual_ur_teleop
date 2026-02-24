@@ -1,18 +1,12 @@
-# Dual UR5e Arm Teleoperation with Hand Tracking
+# HandServo
 
-Teleoperate two UR5e arms in Cartesian space using a webcam and MediaPipe hand tracking. Each hand controls one arm. Pinching closes the gripper.
+Dual UR5e arm teleoperation using hand tracking via MediaPipe and MoveIt Servo.
 
----
-
-## Setup
-
-Two UR5e arms placed 0.8 m apart on the X-axis, each with a parallel-jaw gripper. Only X and Y motion is used since depth is not available from a single 2D camera.
+Each hand controls one arm in Cartesian space. Pinching closes the gripper. Only X and Y motion is used since depth is unavailable from a single 2D camera.
 
 ---
 
 ## Requirements
-
-### ROS 2
 
 ROS 2 Humble with MoveIt 2.
 
@@ -24,15 +18,13 @@ sudo apt update && sudo apt install \
   ros-humble-robot-state-publisher
 ```
 
-### Hand Tracking
-
 ```bash
 pip install mediapipe opencv-python
 ```
 
 ---
 
-## Building
+## Build
 
 ```bash
 git clone <repo-url> catkin_ws
@@ -44,39 +36,18 @@ source install/setup.bash
 
 ---
 
-## Camera Setup
-
-### No direct camera access (network stream)
-
-Run a Flask stream server on the machine with the camera:
+## Run
 
 ```bash
-python3 src/teleop_hand_tracking/scripts/flask_bringup.py
-```
+source /opt/ros/humble/setup.bash
+source install/setup.bash
 
-Then set the stream URL before launching:
-
-```bash
-export VIDEO_SOURCE=http://<ip>:5000/video_feed
-```
-
-### Direct camera access
-
-```bash
+# Use a direct webcam
 export USE_DIRECT_CAMERA=1
-```
 
-To preview the feed without a display (e.g. inside Docker), write frames to a file:
+# Or stream over the network
+export VIDEO_SOURCE=http://<ip>:5000/video_feed
 
-```bash
-python3 src/teleop_hand_tracking/scripts/camera_bringup.py
-```
-
----
-
-## Running
-
-```bash
 ros2 launch teleop_hand_tracking teleop.launch.py
 ```
 
@@ -86,7 +57,7 @@ Without RViz:
 ros2 launch teleop_hand_tracking teleop.launch.py rviz:=false
 ```
 
-Wait about 5 seconds for MoveIt Servo to activate, then move your hands in front of the camera.
+Wait ~5 seconds for MoveIt Servo to activate, then move your hands in front of the camera.
 
 ---
 
@@ -94,11 +65,10 @@ Wait about 5 seconds for MoveIt Servo to activate, then move your hands in front
 
 | Node | Description |
 |------|-------------|
-| `hand_tracker_node` | Reads camera, detects hands via MediaPipe, publishes TwistStamped to each servo node and JointTrajectory to each gripper controller |
-| `servo_node_left` / `servo_node_right` | MoveIt Servo — converts Twist commands to JointTrajectory |
+| `hand_tracker_node` | Detects hands via MediaPipe, publishes velocity commands to each servo node and gripper controller |
+| `servo_node_left` / `servo_node_right` | MoveIt Servo — converts Twist commands to joint trajectories |
 | `servo_to_joint_state` | Merges servo and gripper outputs into `/joint_states` |
 | `robot_state_publisher` | Computes TF tree from `/joint_states` |
-| `rviz2` | Visualisation |
 
 ---
 
@@ -116,10 +86,3 @@ Wait about 5 seconds for MoveIt Servo to activate, then move your hands in front
 - [OpenCV](https://opencv.org)
 - [MoveIt 2](https://moveit.ros.org)
 - [ur_description](https://github.com/UniversalRobots/Universal_Robots_ROS2_Description)
-
----
-
-## Limitations
-
-- Z-axis motion is fixed (no depth from 2D camera)
-- Singularities can occur depending on workspace coverage
